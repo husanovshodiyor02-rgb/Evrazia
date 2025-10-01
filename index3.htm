@@ -6,6 +6,13 @@
     <title>Evrazia</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./src/output.css">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+  
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+  />
 </head>
 <body>
     <header class="container1">
@@ -19,16 +26,16 @@
                         <h4 class="font-family font-normal text-base leading-[187%] text-right text-[#b0b0b0]">Схема проезда</h4>
                     </div>
                     <div class="flex items-center">
-                        <div class="text-[#b0b0b0]">
+                        <div class="text-[#000]">
                             <i class="fa-solid fa-phone"></i>
                         </div>
-                        <a class="font-family font-normal text-base leading-[187%] text-right text-[#b0b0b0] relative inline-block hover:text-[gray] after:absolute after:bottom-0 after:right-0 after:h-[2px] after:w-0 after:bg-[gray] after:transition-all after:duration-300 hover:after:left-0 hover:after:w-full" href="tel:+79227288288">+79227288288</a>
+                        <a class="font-family font-normal text-base leading-[187%] text-right text-[#000] relative inline-block hover:text-[gray] after:absolute after:bottom-0 after:right-0 after:h-[2px] after:w-0 after:bg-[gray] after:transition-all after:duration-300 hover:after:left-0 hover:after:w-full" href="">+79227288288</a>
                     </div>
                     <div class="flex items-center">
-                        <div class="text-[#b0b0b0]">
+                        <div class="text-[#000]">
                             <i class="fa-solid fa-phone"></i>
                         </div>
-                        <a class="font-family font-normal text-base leading-[187%] text-right text-[#b0b0b0] relative inline-block hover:text-[gray] after:absolute after:bottom-0 after:right-0 after:h-[2px] after:w-0 after:bg-[gray] after:transition-all after:duration-300 hover:after:left-0 hover:after:w-full" href="tel:+73513790979">+73513790979</a>
+                        <a class="font-family font-normal text-base leading-[187%] text-right text-[#000] relative inline-block hover:text-[gray] after:absolute after:bottom-0 after:right-0 after:h-[2px] after:w-0 after:bg-[gray] after:transition-all after:duration-300 hover:after:left-0 hover:after:w-full" href="">+73513790979</a>
                     </div>
                 </div>
 
@@ -37,8 +44,8 @@
 
                     <li><a class="font-family font-normal text-lg text-black relative inline-block  after:absolute after:bottom-0 after:right-0 after:h-[2px] after:w-0 after:bg-[gray] after:transition-all after:duration-300 hover:after:left-0 hover:after:w-full" href="./index.html">Курорт</a></li>
                     <li><a class="font-family font-normal text-lg text-black relative inline-block  after:absolute after:bottom-0 after:right-0 after:h-[2px] after:w-0 after:bg-[gray] after:transition-all after:duration-300 hover:after:left-0 hover:after:w-full" href="./index2.html">Проживание</a></li>
-                    <li><a class="font-family font-normal text-lg text-black relative inline-block  after:absolute after:bottom-0 after:right-0 after:h-[2px] after:w-0 after:bg-[gray] after:transition-all after:duration-300 hover:after:left-0 hover:after:w-full" href="#">Услуги и тарифы</a></li>
-                    <li><a class="font-family font-normal text-lg text-black relative inline-block  after:absolute after:bottom-0 after:right-0 after:h-[2px] after:w-0 after:bg-[gray] after:transition-all after:duration-300 hover:after:left-0 hover:after:w-full" href="#">Афиша</a></li>
+                    <li><a class="font-family font-normal text-lg text-black relative inline-block  after:absolute after:bottom-0 after:right-0 after:h-[2px] after:w-0 after:bg-[gray] after:transition-all after:duration-300 hover:after:left-0 hover:after:w-full" href="./index3.htm">Услуги и тарифы</a></li>
+                    <li><a class="font-family font-normal text-lg text-black relative inline-block  after:absolute after:bottom-0 after:right-0 after:h-[2px] after:w-0 after:bg-[gray] after:transition-all after:duration-300 hover:after:left-0 hover:after:w-full" href="./index4.html">Афиша</a></li>
                     <li><a class="font-family font-normal text-lg text-black relative inline-block  after:absolute after:bottom-0 after:right-0 after:h-[2px] after:w-0 after:bg-[gray] after:transition-all after:duration-300 hover:after:left-0 hover:after:w-full" href="#">Для бизнеса</a></li>
                     <li><a class="font-family font-normal text-lg text-black relative inline-block  after:absolute after:bottom-0 after:right-0 after:h-[2px] after:w-0 after:bg-[gray] after:transition-all after:duration-300 hover:after:left-0 hover:after:w-full" href="#">Купить онлайн</a></li>
                 </ul>
@@ -49,6 +56,7 @@
               </button>
         </div>
     </header>
+
 
     <div id="mobile-menu" class="fixed top-0 right-0 w-3/4 h-full bg-white shadow-lg z-50 hidden flex-col p-6">
         <div class="flex justify-between items-center mb-6">
@@ -77,12 +85,15 @@
 
     <section class="my-[20px]">
         <div class="container1">
-            <div class="w-full h-[406px] bg-cover bg-center rounded-[30px] bg-[linear-gradient(to_right,rgba(48,98,156)_0%,rgba(0,0,139,0)_50%),url('/img/showcase.png')]">
+            <div class="w-full h-[406px] bg-cover bg-center rounded-[30px] bg-[linear-gradient(to_right,rgba(48,98,156)_0%,rgba(0,0,139,0)_50%),url('/img/show3.png')]">
                 <div class="flex justify-between p-[41px_30px]">
-                    <div>
-                        <h1 class="font-family font-black text-[30px] leading-[120%] tracking-[-0.03em] text-white sm:text-[40px] xs:text-[20px]">30 декабря в ЦАО "Евразия" <br> состоится тестовое <br> открытие 2 склона.</h1><br><br>
+                    <div class="pt-[150px]">
+                        <h1 class="font-family font-black text-[30px] leading-[120%] tracking-[-0.03em] text-white sm:text-[40px] xs:text-[20px]">Отели ЦАО Евразия</h1><br>
 
-                        <p class="font-family font-normal text-xl leading-[120%] text-white sm:text-2xl xs:text-sm">К новогодним праздникам уже подготовлено <br> 5 больших склонов и учебная трасса, <br>а также тюбинговая горка.</p>
+                        <p class="font-family font-medium text-lg leading-[140%] tracking-[-0.04em] text-white sm:text-base xs:text-sm">Найдите и забронируйте подходящий <br>
+                            для Вас отель на официальном сайте Евразии. <br>
+                            Широкий выбор отелей по всему курорту <br>
+                            и самые низкие цены гарантированы</p>
                     </div>
                     <div class="w-[70px] h-[260px] rounded-[15px] bg-[#fff] p-[10px_20px] sm:w-[216px] sm:h-[295px]">
                         <div class="flex gap-1 items-center">
@@ -94,7 +105,7 @@
                             <p class="font-family font-light text-[10px] leading-[130%] text-center text-[#645252] hidden sm:flex">Свернуть</p>
                         </div>
                         
-                        <div class="pt-[20px]">
+                        <div class="pt-[10px]">
                             <div class="flex gap-[20px] items-center">
                                 <img src="./img/sv1.png" alt="">
                                 <h3 class="font-family font-medium text-sm leading-[130%] text-[#645252] hidden sm:flex">Веб-камеры</h3>
@@ -107,12 +118,13 @@
                                 <img src="./img/sv3.png" alt="">
                                 <h3 class="font-family font-medium text-sm leading-[130%] text-[#645252] hidden sm:flex">Билеты</h3>
                             </div>
-                            <div class="flex gap-[20px] items-center pt-[15px]">
+                            <div class="flex gap-[20px] items-center pt-[15px] pb-[10px]">
                                 <img src="./img/sv4.png" alt="">
                                 <h3 class="font-family font-medium text-sm leading-[130%] text-[#645252] hidden sm:flex">Карта</h3>
                             </div>
+                            <hr class="text-[#d9d9d9] h-[1px] hidden sm:flex">
                             <p class="font-family font-medium text-[10px] leading-[130%] text-[#645252] pt-4 pb-3 hidden sm:flex">Сегодня, sunday 15 января</p>
-                           <hr class="text-[#d9d9d9] h-[1px] hidden sm:flex">
+                           
                            <img src="./img/sv5.png" alt="">
                            <p class="font-family font-light text-[10px] leading-[130%] pl-2 text-[#645252]">-10</p>
                         </div> 
@@ -123,67 +135,43 @@
     </section>
 
     <section class="container1">
-        <h1 class="font-family font-black text-[30px] leading-[130%] tracking-[-0.04em] text-[#0093dd] mt-[40px] mb-[40px] sm:text-[40px] xs:text-[20px]">Центр активного отдыха "Евразия"</h1>
+        <h1 class="font-family font-black text-[40px] leading-[130%] tracking-[-0.04em] text-[#0093dd]">Проживание в ЦАО "Евразия"</h1>
 
-        <div class="bg-cover bg-center rounded-[30px] h-[366px] bg-no-repeat md:bg-[url('/img/center.png')] xs:flex xs:bg-[url('/img/center2.png')]">
-                <h1 class="font-family font-medium lg:text-[26px]  leading-[130%] text-white md:p-[100px_50px] md:text-[22px] xs:pt-[200px] xs:px-[35px] xs:text-[14px]">Мы рады приветствовать <br>
-                любителей активного отдыха <br>
-                в нашем экологическом парке — <br> самом динамично развивающемся <br> горнолыжном центре Южного Урала!</h1>
-        </div>
-    </section>
-
-    <section class="container1">
-        <div class="justify-between items-center mt-[40px] mb-[40px] flex flex-col md:flex-row">
-            <h1 class="font-family font-black text-[30px] leading-[130%] tracking-[-0.04em] text-[#0093dd] sm:text-[40px] xs:text-[20px]">Акции и спец предложения</h1>
-            <button class="w-[258px] h-[54px] pl-[50px] pr-[52px] py-[15px] rounded-[10px] bg-[#0093dd] font-family font-medium text-base text-white hover:bg-[#7590d7] cursor-pointer">Посмотреть все</button>
-        </div>
-
-        <div class="gap-[59px] grid lg:grid-cols-2 sm:grid-cols-1 xs:grid-cols-1">
-            <div class="w-[561px] h-[406px] rounded-[30px] p-[20px]  bg-[linear-gradient(to_right,rgba(48,98,156)_0%,rgba(0,0,139,0)_50%),url('/img/aksiya.png')]">
-                <h1 class="font-family font-black text-[40px] leading-[110%] text-white">30 декабря <br> в ЦАО "Евразия" <br> состоится тестовое <br>  открытие 2 склона.</h1><br>
-                <p class="font-family font-normal text-2xl leading-[120%] text-white">К новогодним праздникам уже подготовлено <br> 5 больших склонов и учебная трасса, <br>  а также тюбинговая горка.</p>
-            </div>
-            <div class="w-[561px] h-[406px] rounded-[30px] p-[20px]  bg-[linear-gradient(to_right,rgba(48,98,156)_0%,rgba(0,0,139,0)_50%),url('/img/aksiya.png')]">
-                <h1 class="font-family font-black text-[40px] leading-[110%] text-white">30 декабря <br> в ЦАО "Евразия" <br> состоится тестовое <br>  открытие 2 склона.</h1><br>
-                <p class="font-family font-normal text-2xl leading-[120%] text-white">К новогодним праздникам уже подготовлено <br> 5 больших склонов и учебная трасса, <br>  а также тюбинговая горка.</p>
-            </div>
-            <div class="w-[551px] h-[406px] rounded-[30px] p-[20px] bg-no-repeat  bg-[url('/img/aksiya2.png')]"></div>
-            <div class="w-[561px] h-[406px] rounded-[30px]  bg-[linear-gradient(to_right,rgba(48,98,156)_0%,rgba(0,0,139,0)_50%),url('/img/aksiya3.png')]">
-                <h1 class="font-family font-black text-[40px] leading-[130%] text-white p-[20px]">BBQ площадки</h1>
+        <div class="gap-[50px] pt-[40px] flex flex-col md:flex-row">
+            <img src="./img/sao1.png" alt="" class="w-[320px] h-[240px]">
+            <div>
+                <h4 class="font-family font-semibold text-sm leading-[143%] lowercase text-[#0093dd]">10 МИНУТ НА АВТОБУСЕ ИЛИ АВТОМОБИЛЕ</h4><br>
+                <h2 class="font-family font-semibold text-lg leading-[156%] text-[#101828]">КОРПУС "ГОРОД”</h2><br>
+                <p class="font-family font-normal text-base leading-[150%] text-[#667085]">Гости размещаются по 2,3 и 4 человека в номере. В каждой комнате 2,3 кровати 1,5 спальные (в 4-х <br> местном номере 2 двухъярусные кровати), большой шкаф, прихожая. В каждом номер - душ, <br> раковина, санузел. Корпус "Город" расположен в 10 минутах от территории в городе Куса, ул. <br> Декабристов, дом 9. Доставка осуществляется на 35-местном автобусе утром, днем и вечером.</p><br>
+                <button class="w-[258px] h-[54px] pl-[50px] pr-[52px] py-[15px] rounded-[10px] bg-[#0093dd] font-family font-medium text-base text-white">Забронировать</button>
             </div>
         </div>
-    </section>
 
-    <section class="container1">
-        <div class="justify-between items-center mt-[40px] mb-[40px] flex flex-col md:flex-row">
-            <h1 class="font-family font-black text-[30px] leading-[130%] tracking-[-0.04em] text-[#0093dd] sm:text-[40px] xs:text-[20px]">Афиша</h1>
-            <button class="w-[258px] h-[54px] pl-[50px] pr-[52px] py-[15px] rounded-[10px] bg-[#0093dd] font-family font-medium text-base text-white hover:bg-[#7590d7] cursor-pointer">Посмотреть все</button>
-        </div>
-        
-        <div class="justify-between flex flex-col lg:flex-row gap-5">
-            <div class="w-[558px] h-[406px]">
-                <img src="./img/afiwa1.png" alt="">
+        <div class="gap-[50px] pt-[40px] flex flex-col md:flex-row">
+            <img src="./img/sao2.png" alt="" class="w-[320px] h-[240px]">
+            <div>
+                <h4 class="font-family font-semibold text-sm leading-[143%] lowercase text-[#0093dd]">600 МЕТРОВ ОТ ПОДЪЕМНИКА</h4><br>
+                <h2 class="font-family font-semibold text-lg leading-[156%] text-[#101828]">КОРПУС "ГОРНЫЙ”</h2><br>
+                <p class="font-family font-normal text-base leading-[150%] text-[#667085]">В гостиничном комплексте (600 метров от подъемника и сервисного здания) мы можем <br> предложить размещение в 54 двухместных, 12 одноместных и 12 спортивных номерах.</p><br><br>
+                <button class="w-[258px] h-[54px] pl-[50px] pr-[52px] py-[15px] rounded-[10px] bg-[#0093dd] font-family font-medium text-base text-white">Забронировать</button>
             </div>
-            <div class="w-[558px] h-[406px]">
-                <img src="./img/afiwa2.png" alt="">
+        </div>
+
+        <div class="gap-[50px] pt-[40px] flex flex-col md:flex-row">
+            <img src="./img/sao3.png" alt="" class="w-[320px] h-[240px]">
+            <div>
+                <h4 class="font-family font-semibold text-sm leading-[143%] lowercase text-[#0093dd]">ГОСТЕВОЙ ДОМИК, 2 КИЛОМЕТРА ОТ ПОДЪЕМНИКА</h4><br>
+                <h2 class="font-family font-semibold text-lg leading-[156%] text-[#101828]">КОРПУС "ЛЕСНОЙ</h2><br>
+                <p class="font-family font-normal text-base leading-[150%] text-[#667085]">Также для размещения предлагается гостевой домик (2 км от подъемника <br> и сервисного здания) для компаний до 16 человек.</p><br><br>
+                <button class="w-[258px] h-[54px] pl-[50px] pr-[52px] py-[15px] rounded-[10px] bg-[#0093dd] font-family font-medium text-base text-white">Забронировать</button>
             </div>
         </div>
     </section>
 
     <section class="container1">
-        <div class="justify-between items-center mt-[40px] mb-[40px] flex flex-col md:flex-row">
-            <h1 class="font-family font-black text-[30px] leading-[130%] tracking-[-0.04em] text-[#0093dd] sm:text-[40px] xs:text-[20px]">Новости</h1>
-            <button class="w-[258px] h-[54px] pl-[50px] pr-[52px] py-[15px] rounded-[10px] bg-[#0093dd] font-family font-medium text-base text-white hover:bg-[#7590d7] cursor-pointer">Посмотреть все</button>
-        </div>
-        
-        <div class="gap-[104px] grid lg:grid-cols-2 xs:grid-cols-1">
-            <div class="w-[558px] h-[406px] bg-no-repeat bg-[url('/img/novosti1.png')]">
-                <h1 class="font-family font-black text-[40px] leading-[110%] text-white p-[20px]">Состоялось первенство <br> России по сноуборду в <br> дисциплине Big-Air</h1>
-            </div>
-            <div class="w-[558px] h-[406px] bg-no-repeat bg-[url('/img/novosti2.png')]">
-                <h1 class="font-family font-black text-[40px] leading-[110%] text-white p-[20px]">Всероссийские <br> соревнования <br> по сноуборду в <br> городе Куса</h1>
-            </div>
-        </div>
+        <h3 class="font-family font-semibold text-base leading-[150%] text-center text-[#0093dd] pt-[40px]">Заселение в гостиницу производится только при предъявлении паспорта.</h3><br>
+        <h1 class="font-family font-semibold text-4xl leading-[122%] tracking-[-0.02em] text-center text-[#101828]">Обращаем Ваше внимание на то, что для <br> постояльцев гостиницы действуют <br> специальные тарифы на ски-пасс.</h1><br>
+        <h4 class="font-family font-normal text-xl leading-[62%] text-center text-[#667085]">Бронирование осуществляется по предоплате.</h4>
     </section>
 
     <section class="container1">
@@ -268,7 +256,7 @@
             </div>
         </div>
     </footer>
-    
+
 
 
     <script>
