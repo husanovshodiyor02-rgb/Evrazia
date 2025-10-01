@@ -866,6 +866,11 @@
       display: flex;
     }
   }
+  .xs\:w-auto {
+    @media (width >= 280px) {
+      width: auto;
+    }
+  }
   .xs\:grid-cols-1 {
     @media (width >= 280px) {
       grid-template-columns: repeat(1, minmax(0, 1fr));
@@ -879,6 +884,11 @@
   .xs\:gap-\[25px\] {
     @media (width >= 280px) {
       gap: 25px;
+    }
+  }
+  .xs\:gap-\[30px\] {
+    @media (width >= 280px) {
+      gap: 30px;
     }
   }
   .xs\:bg-\[url\(\'\/img\/center\.png\'\)\] {
@@ -941,6 +951,18 @@
       padding-left: 30%;
     }
   }
+  .xs\:text-2xl {
+    @media (width >= 280px) {
+      font-size: var(--text-2xl);
+      line-height: var(--tw-leading, var(--text-2xl--line-height));
+    }
+  }
+  .xs\:text-base {
+    @media (width >= 280px) {
+      font-size: var(--text-base);
+      line-height: var(--tw-leading, var(--text-base--line-height));
+    }
+  }
   .xs\:text-sm {
     @media (width >= 280px) {
       font-size: var(--text-sm);
@@ -999,6 +1021,17 @@
       line-height: var(--tw-leading, var(--text-base--line-height));
     }
   }
+  .sm\:text-xl {
+    @media (width >= 40rem) {
+      font-size: var(--text-xl);
+      line-height: var(--tw-leading, var(--text-xl--line-height));
+    }
+  }
+  .sm\:text-\[35px\] {
+    @media (width >= 40rem) {
+      font-size: 35px;
+    }
+  }
   .sm\:text-\[40px\] {
     @media (width >= 40rem) {
       font-size: 40px;
@@ -1024,9 +1057,29 @@
       height: 407px;
     }
   }
+  .md\:w-\[551px\] {
+    @media (width >= 48rem) {
+      width: 551px;
+    }
+  }
+  .md\:w-\[558px\] {
+    @media (width >= 48rem) {
+      width: 558px;
+    }
+  }
+  .md\:w-\[561px\] {
+    @media (width >= 48rem) {
+      width: 561px;
+    }
+  }
   .md\:flex-row {
     @media (width >= 48rem) {
       flex-direction: row;
+    }
+  }
+  .md\:justify-between {
+    @media (width >= 48rem) {
+      justify-content: space-between;
     }
   }
   .md\:gap-\[20px\] {
@@ -1037,6 +1090,11 @@
   .md\:gap-\[40px\] {
     @media (width >= 48rem) {
       gap: 40px;
+    }
+  }
+  .md\:gap-\[104px\] {
+    @media (width >= 48rem) {
+      gap: 104px;
     }
   }
   .md\:bg-\[url\(\'\/img\/center\.png\'\)\] {
@@ -1054,9 +1112,20 @@
       padding-right: 50px;
     }
   }
+  .md\:text-2xl {
+    @media (width >= 48rem) {
+      font-size: var(--text-2xl);
+      line-height: var(--tw-leading, var(--text-2xl--line-height));
+    }
+  }
   .md\:text-\[22px\] {
     @media (width >= 48rem) {
       font-size: 22px;
+    }
+  }
+  .md\:text-\[40px\] {
+    @media (width >= 48rem) {
+      font-size: 40px;
     }
   }
   .lg\:grid-cols-2 {
