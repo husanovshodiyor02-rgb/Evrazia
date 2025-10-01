@@ -6,6 +6,7 @@
     <title>Evrazia</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./src/output.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <script src="https://cdn.tailwindcss.com"></script>
   
@@ -85,6 +86,8 @@
 
     <section class="my-[20px]">
         <div class="container1">
+            <div data-aos="fade-up">
+
             <div class="w-full h-[406px] bg-cover bg-center rounded-[30px] bg-[linear-gradient(to_right,rgba(48,98,156)_0%,rgba(0,0,139,0)_50%),url('/img/show3.png')]">
                 <div class="flex justify-between p-[41px_30px]">
                     <div class="pt-[150px]">
@@ -132,11 +135,15 @@
                 </div>
             </div>
         </div>
+        </div>
     </section>
 
     <section class="container1">
-        <h1 class="font-family font-black text-[40px] leading-[130%] tracking-[-0.04em] text-[#0093dd]">Проживание в ЦАО "Евразия"</h1>
-
+        <div data-aos="fade-down-right">
+            <h1 class="font-family font-black text-[40px] leading-[130%] tracking-[-0.04em] text-[#0093dd]">Проживание в ЦАО "Евразия"</h1>
+        </div>
+        
+        <div data-aos="fade-down-left">
         <div class="gap-[50px] pt-[40px] flex flex-col md:flex-row">
             <img src="./img/sao1.png" alt="" class="w-[320px] h-[240px]">
             <div>
@@ -146,7 +153,9 @@
                 <button class="w-[258px] h-[54px] pl-[50px] pr-[52px] py-[15px] rounded-[10px] bg-[#0093dd] font-family font-medium text-base text-white">Забронировать</button>
             </div>
         </div>
+        </div>
 
+        <div data-aos="fade-down-right">
         <div class="gap-[50px] pt-[40px] flex flex-col md:flex-row">
             <img src="./img/sao2.png" alt="" class="w-[320px] h-[240px]">
             <div>
@@ -156,7 +165,9 @@
                 <button class="w-[258px] h-[54px] pl-[50px] pr-[52px] py-[15px] rounded-[10px] bg-[#0093dd] font-family font-medium text-base text-white">Забронировать</button>
             </div>
         </div>
+        </div>
 
+        <div data-aos="flip-up">
         <div class="gap-[50px] pt-[40px] flex flex-col md:flex-row">
             <img src="./img/sao3.png" alt="" class="w-[320px] h-[240px]">
             <div>
@@ -165,6 +176,7 @@
                 <p class="font-family font-normal text-base leading-[150%] text-[#667085]">Также для размещения предлагается гостевой домик (2 км от подъемника <br> и сервисного здания) для компаний до 16 человек.</p><br><br>
                 <button class="w-[258px] h-[54px] pl-[50px] pr-[52px] py-[15px] rounded-[10px] bg-[#0093dd] font-family font-medium text-base text-white">Забронировать</button>
             </div>
+        </div>
         </div>
     </section>
 
@@ -176,9 +188,15 @@
 
     <section class="container1">
         <nav class="flex gap-3 justify-center pt-[40px] mb-[40px]">
-            <a href="https://vk.com/"><img src="./img/vk.png" alt=""></a>
-            <a href="https://www.youtube.com/"><img src="./img/yt.png" alt=""></a>
-            <a href="https://www.telegram.com/"><img src="./img/gr.png" alt=""></a>
+            <div data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                <a href="https://vk.com/"><img src="./img/vk.png" alt=""></a>
+            </div>
+            <div data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                <a href="https://www.youtube.com/"><img src="./img/yt.png" alt=""></a>
+            </div>
+            <div data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                <a href="https://www.telegram.com/"><img src="./img/gr.png" alt=""></a>
+            </div>
         </nav>
     </section>
 
@@ -274,5 +292,10 @@
           mobileMenu.classList.remove("flex");
         });
       </script>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 </body>
 </html>
